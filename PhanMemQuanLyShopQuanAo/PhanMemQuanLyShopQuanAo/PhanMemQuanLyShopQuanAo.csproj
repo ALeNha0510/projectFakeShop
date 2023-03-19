@@ -46,14 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormCuaNha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormCuaNha.Designer.cs">
+      <DependentUpon>FormCuaNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCuaMinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCuaMinh.Designer.cs">
+      <DependentUpon>FormCuaMinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCuaNha.resx">
+      <DependentUpon>FormCuaNha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

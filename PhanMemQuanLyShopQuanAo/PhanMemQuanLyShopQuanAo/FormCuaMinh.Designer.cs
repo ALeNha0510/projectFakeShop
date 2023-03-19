@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyShopQuanAo
 {
-    partial class Form1
+    partial class FormCuaMinh
     {
         /// <summary>
         /// Required designer variable.
